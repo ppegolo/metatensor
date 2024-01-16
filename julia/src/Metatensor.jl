@@ -26,4 +26,27 @@ module Metatensor
         end
     end
 
+    function last_error()
+        error("TODO")
+    end
+
+    function check(status ::lib.mts_status_t)
+        if status != lib.MTS_SUCCESS
+            error(last_error())
+        end
+    end
+
+
+    include("labels.jl")
+    include("array.jl")
+    include("block.jl")
+    include("tensor.jl")
+    include("io.jl")
+
+    function __init__()
+        lib.mts_disable_panic_printing()
+    end
+
+    export Labels, TensorBlock, TensorMap
+
 end # module Metatensor
