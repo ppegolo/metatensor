@@ -2,7 +2,7 @@ using Metatensor
 using Test
 
 TESTS = [
-    # TODO: add tests files here
+    "labels.jl"
 ]
 
 function main()

@@ -181,7 +181,10 @@ def generate_enums(file, enums):
 
 def generate_structs(file, structs):
     for struct in structs:
-        file.write(f"struct {struct.name}\n")
+        if struct.name == "mts_labels_t":
+            file.write(f"mutable struct {struct.name}\n")
+        else:
+            file.write(f"struct {struct.name}\n")
         for name, type in struct.members.items():
             file.write(f"    {name} :: {type_to_julia(type)}\n")
         file.write("end\n\n")

@@ -42,7 +42,7 @@ end
 struct mts_tensormap_t
 end
 
-struct mts_labels_t
+mutable struct mts_labels_t
     internal_ptr_ :: Ptr{Cvoid}
     names :: Ptr{Ptr{Cchar}}
     values :: Ptr{Int32}
