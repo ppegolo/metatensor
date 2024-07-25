@@ -127,6 +127,16 @@ def allclose(
         raise TypeError(UNKNOWN_ARRAY_TYPE)
 
 
+def argsort(values, dim=-1, reverse: bool = False):
+    if isinstance(values, TorchTensor):
+        return torch.argsort(values, dim=dim, descending=reverse)
+    elif isinstance(values, np.ndarray):
+        result = np.argsort(values, axis=dim)
+        if reverse:
+            result = result[::-1]
+        return result
+
+
 def argsort_labels_values(labels_values, reverse: bool = False):
     """
     Similar to :py:func:`np.argsort`, but sort the rows as one aggregated
