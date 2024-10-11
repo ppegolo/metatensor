@@ -3,14 +3,12 @@ import os
 import sys
 
 import torch
-
 from metatensor.torch.atomistic import (
     ModelEvaluationOptions,
     ModelOutput,
     System,
     load_atomistic_model,
 )
-
 
 EXAMPLES = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..", "..", "..", "examples")

@@ -1,16 +1,13 @@
 import os
 
-import pytest
-
 import metatensor
-
+import pytest
 
 torch = pytest.importorskip("torch")
 
 from metatensor.learn.nn.layer_norm import InvariantLayerNorm, _LayerNorm  # noqa: E402
 
 from ._rotation_utils import WignerDReal  # noqa: E402
-
 
 DATA_ROOT = os.path.join(
     os.path.dirname(__file__), "..", "..", "metatensor-operations", "tests", "data"

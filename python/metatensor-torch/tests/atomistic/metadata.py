@@ -1,8 +1,6 @@
 from typing import Dict, List, Optional
 
 import torch
-from packaging import version
-
 from metatensor.torch import Labels
 from metatensor.torch.atomistic import (
     ModelCapabilities,
@@ -10,6 +8,7 @@ from metatensor.torch.atomistic import (
     ModelMetadata,
     ModelOutput,
 )
+from packaging import version
 
 
 class ModelOutputWrap:

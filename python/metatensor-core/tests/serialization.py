@@ -2,14 +2,12 @@ import io
 import os
 import pickle
 
+import metatensor
 import numpy as np
 import pytest
-
-import metatensor
 from metatensor import Labels, MetatensorError, TensorBlock, TensorMap
 
 from . import _tests_utils
-
 
 PICKLE_PROTOCOLS = (4, 5)
 

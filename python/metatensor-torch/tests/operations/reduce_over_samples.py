@@ -2,13 +2,11 @@ import io
 import os
 import sys
 
+import metatensor.torch
 import pytest
 import torch
-from packaging import version
-
-import metatensor.torch
 from metatensor.torch import Labels, TensorBlock, TensorMap
-
+from packaging import version
 
 TORCH_VERSION = version.parse(torch.__version__)
 

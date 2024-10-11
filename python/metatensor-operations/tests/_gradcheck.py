@@ -1,6 +1,5 @@
-import numpy as np
-
 import metatensor
+import numpy as np
 from metatensor import Labels, TensorBlock, TensorMap
 from metatensor.operations import _dispatch
 

@@ -42,9 +42,7 @@ anything the spherical expansion to follow this tutorial!
 import ase
 import ase.visualize.plot
 import matplotlib.pyplot as plt
-
 import metatensor
-
 
 # %%
 #

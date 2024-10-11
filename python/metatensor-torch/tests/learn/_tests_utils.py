@@ -1,10 +1,8 @@
 import torch
-
 from metatensor.torch import Labels, TensorBlock, TensorMap
 
 # re-export can_use_mps_backend
 from .._tests_utils import can_use_mps_backend  # noqa F401
-
 
 TORCH_KWARGS = {"device": "cpu", "dtype": torch.float32}
 

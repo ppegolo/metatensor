@@ -39,7 +39,6 @@ to atomic positions are included.
 import metatensor
 from metatensor import TensorBlock, TensorMap
 
-
 # %%
 #
 # Amazing gradients and where to find them

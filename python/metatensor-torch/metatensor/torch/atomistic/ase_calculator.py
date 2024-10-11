@@ -5,6 +5,7 @@ import warnings
 from typing import Dict, List, Optional, Union
 
 import numpy as np
+
 import torch
 from torch.profiler import record_function
 
@@ -18,7 +19,6 @@ from . import (
     load_atomistic_model,
     register_autograd_neighbors,
 )
-
 
 import ase  # isort: skip
 import ase.neighborlist  # isort: skip

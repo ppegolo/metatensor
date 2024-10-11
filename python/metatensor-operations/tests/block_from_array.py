@@ -1,8 +1,6 @@
+import metatensor
 import numpy as np
 import pytest
-
-import metatensor
-
 
 try:
     import torch

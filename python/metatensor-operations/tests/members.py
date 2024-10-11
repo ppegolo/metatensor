@@ -1,7 +1,6 @@
+import metatensor
 import numpy as np
 import pytest
-
-import metatensor
 from metatensor import Labels, TensorBlock
 
 from . import _tests_utils

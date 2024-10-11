@@ -5,10 +5,9 @@ whether or not the module is jit scripted and 2) can be saved and loaded.
 
 import io
 
+import metatensor.torch
 import pytest
 import torch
-
-import metatensor.torch
 from metatensor.torch import allclose_raise
 from metatensor.torch.learn.nn import (
     EquivariantLinear,

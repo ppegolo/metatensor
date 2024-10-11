@@ -20,7 +20,6 @@ import ase.build
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
-
 from metatensor.torch import Labels, TensorBlock, TensorMap
 from metatensor.torch.atomistic import (
     MetatensorAtomisticModel,
@@ -30,7 +29,6 @@ from metatensor.torch.atomistic import (
     System,
 )
 from metatensor.torch.atomistic.ase_calculator import MetatensorCalculator
-
 
 # %%
 #

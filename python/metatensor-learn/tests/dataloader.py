@@ -4,7 +4,6 @@
 import numpy as np
 import pytest
 
-
 torch = pytest.importorskip("torch")
 
 import metatensor  # noqa: E402
@@ -12,7 +11,6 @@ from metatensor import TensorMap  # noqa: E402
 from metatensor.learn.data import DataLoader, Dataset, group  # noqa: E402
 
 from . import _tests_utils  # noqa: E402
-
 
 SAMPLE_INDICES = [i * 7 for i in range(6)]  # non-continuous sample index range
 

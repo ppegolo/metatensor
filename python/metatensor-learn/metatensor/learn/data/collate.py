@@ -4,9 +4,8 @@ Module containing a collate function for use in a Dataloader.
 
 from typing import List, NamedTuple, Optional, Union
 
-import torch
-
 import metatensor
+import torch
 from metatensor import TensorMap
 
 from ._namedtuple import namedtuple

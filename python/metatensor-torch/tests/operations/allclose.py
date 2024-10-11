@@ -1,9 +1,8 @@
 import io
 import os
 
-import torch
-
 import metatensor.torch
+import torch
 
 
 def test_allclose():

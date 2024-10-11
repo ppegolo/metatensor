@@ -1,9 +1,7 @@
 import os
 
-import pytest
-
 import metatensor
-
+import pytest
 
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
 

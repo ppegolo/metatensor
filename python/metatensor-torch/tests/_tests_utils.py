@@ -1,7 +1,6 @@
 import os
 
 import torch
-
 from metatensor.torch import Labels, TensorBlock, TensorMap
 
 

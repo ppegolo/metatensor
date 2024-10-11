@@ -4,12 +4,10 @@ import warnings
 
 import numpy as np
 import pytest
+from metatensor import DeviceWarning, Labels, MetatensorError, TensorBlock, TensorMap
 from numpy.testing import assert_equal
 
-from metatensor import DeviceWarning, Labels, MetatensorError, TensorBlock, TensorMap
-
 from . import _tests_utils
-
 
 try:
     import torch

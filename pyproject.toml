@@ -67,3 +67,9 @@ filterwarnings = [
     "ignore:Attribute s is deprecated and will be removed in Python 3.14:DeprecationWarning",
     "ignore:ast.NameConstant is deprecated and will be removed in Python 3.14:DeprecationWarning",
 ]
+
+### ======================================================================== ###
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "I"]
+ignore = ["B018", "B904"]

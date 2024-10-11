@@ -2,9 +2,8 @@ from copy import deepcopy
 from typing import List, Optional, Union
 
 import torch
-from torch.nn import Module, ModuleList
-
 from metatensor.operations import _dispatch
+from torch.nn import Module, ModuleList
 
 from .._backend import Labels, LabelsEntry, TensorBlock, TensorMap
 

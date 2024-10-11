@@ -2,9 +2,8 @@ from typing import Dict, List, Optional, Tuple, Union
 
 import pytest
 import torch
-from packaging import version
-
 from metatensor.torch import Labels, LabelsEntry, TensorBlock, TensorMap
+from packaging import version
 
 from . import _tests_utils
 

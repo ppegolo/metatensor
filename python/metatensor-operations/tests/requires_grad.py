@@ -1,9 +1,7 @@
 import os
 
-import pytest
-
 import metatensor
-
+import pytest
 
 torch = pytest.importorskip("torch")
 

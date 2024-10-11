@@ -1,8 +1,7 @@
 import io
 
-import torch
-
 import metatensor.torch
+import torch
 
 
 def test_one_hot():

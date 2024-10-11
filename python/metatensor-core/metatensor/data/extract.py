@@ -8,7 +8,6 @@ from ..status import _check_status
 from ..utils import _call_with_growing_buffer, _ptr_to_ndarray
 from .array import _object_from_ptr, _origin_numpy, _origin_pytorch, _register_origin
 
-
 try:
     import torch
 

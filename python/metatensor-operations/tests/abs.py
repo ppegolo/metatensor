@@ -1,9 +1,8 @@
 """Unit tests for the :py:func:`metatensor.abs` function."""
 
+import metatensor
 import numpy as np
 import pytest
-
-import metatensor
 from metatensor import TensorBlock, TensorMap
 
 from . import _tests_utils

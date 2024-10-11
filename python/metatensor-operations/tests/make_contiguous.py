@@ -1,10 +1,8 @@
 import os
 
-import pytest
-
 import metatensor
+import pytest
 from metatensor import TensorBlock, TensorMap
-
 
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
 

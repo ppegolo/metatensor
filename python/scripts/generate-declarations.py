@@ -3,7 +3,6 @@ import os
 
 from pycparser import c_ast, parse_file
 
-
 ROOT = os.path.join(os.path.dirname(__file__), "..", "..")
 FAKE_INCLUDES = os.path.join(ROOT, "python", "scripts", "include")
 METATENSOR_HEADER = os.path.relpath(

@@ -5,7 +5,6 @@ Module for testing the custom collate functions in :py:module:`collate`.
 import numpy as np
 import pytest
 
-
 torch = pytest.importorskip("torch")
 
 import metatensor  # noqa: E402

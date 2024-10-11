@@ -2,7 +2,6 @@ from typing import Dict, List, Optional
 
 import pytest
 import torch
-
 from metatensor.torch import Labels, TensorBlock, TensorMap
 from metatensor.torch.atomistic import (
     MetatensorAtomisticModel,

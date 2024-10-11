@@ -1,10 +1,8 @@
 import os
 
-import numpy as np
-
 import metatensor
+import numpy as np
 from metatensor import Labels, TensorBlock, TensorMap
-
 
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
 

@@ -1,12 +1,11 @@
 import io
 import os
 
+import metatensor.torch
 import pytest
 import torch
-from packaging import version
-
-import metatensor.torch
 from metatensor.torch import Labels, TensorBlock, TensorMap
+from packaging import version
 
 
 def test_sort():

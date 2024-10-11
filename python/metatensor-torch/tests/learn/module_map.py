@@ -2,7 +2,6 @@ import io
 
 import pytest
 import torch
-
 from metatensor.torch import Labels, allclose_raise
 from metatensor.torch.learn.nn import ModuleMap
 

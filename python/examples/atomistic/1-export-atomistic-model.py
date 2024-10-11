@@ -26,7 +26,6 @@ import glob
 from typing import Dict, List, Optional
 
 import torch
-
 from metatensor.torch import Labels, TensorBlock, TensorMap
 from metatensor.torch.atomistic import (
     MetatensorAtomisticModel,
@@ -35,7 +34,6 @@ from metatensor.torch.atomistic import (
     ModelOutput,
     System,
 )
-
 
 # %%
 #

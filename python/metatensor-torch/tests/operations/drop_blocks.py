@@ -1,11 +1,10 @@
 import io
 import os
 
-import torch
-from packaging import version
-
 import metatensor.torch
+import torch
 from metatensor.torch import Labels
+from packaging import version
 
 
 def test_drop_blocks():

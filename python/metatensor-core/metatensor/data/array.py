@@ -6,7 +6,6 @@ import numpy as np
 from .._c_api import c_uintptr_t, mts_array_t, mts_data_origin_t
 from ..utils import catch_exceptions
 
-
 try:
     import torch
 

@@ -1,6 +1,5 @@
 import importlib.metadata
 
-
 __version__ = importlib.metadata.version("metatensor-learn")
 
 try:
@@ -14,4 +13,4 @@ except ImportError:
 if HAS_TORCH:
     from . import data, nn  # noqa: F401
     from .data import DataLoader, Dataset, IndexedDataset  # noqa: F401
-    from .nn import ModuleMap, Linear  # noqa: F401
+    from .nn import Linear, ModuleMap  # noqa: F401

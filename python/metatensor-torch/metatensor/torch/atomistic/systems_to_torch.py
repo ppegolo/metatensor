@@ -2,10 +2,10 @@ import warnings
 from typing import List, Optional, Union
 
 import numpy as np
+
 import torch
 
 from . import System
-
 
 try:
     import ase

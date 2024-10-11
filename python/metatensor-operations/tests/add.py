@@ -1,11 +1,9 @@
+import metatensor
 import numpy as np
 import pytest
-
-import metatensor
 from metatensor import Labels, TensorBlock, TensorMap
 
 from . import _gradcheck
-
 
 try:
     import torch

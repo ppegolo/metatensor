@@ -1,9 +1,8 @@
 import os
 from importlib import reload
 
-import pytest
-
 import metatensor
+import pytest
 
 
 def set_initial_state(state):

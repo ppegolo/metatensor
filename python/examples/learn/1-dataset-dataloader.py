@@ -14,10 +14,8 @@ compatible with PyTorch and containing metatensor data (i.e. data stored in
 import os
 
 import torch
-
 from metatensor.learn.data import DataLoader, Dataset
 from metatensor.torch import Labels, TensorBlock, TensorMap
-
 
 # %%
 #

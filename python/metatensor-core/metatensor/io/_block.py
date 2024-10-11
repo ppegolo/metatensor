@@ -16,7 +16,6 @@ from ..utils import catch_exceptions
 from ._labels import _labels_from_npz, _labels_to_npz
 from ._utils import _save_buffer_raw
 
-
 # TODO: use a proper type alias when we drop support for Python <3.10; and remove the
 # quotes around the type annotations using this.
 # https://stackoverflow.com/a/73223518/4692076
