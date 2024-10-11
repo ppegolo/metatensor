@@ -10,6 +10,7 @@ from setuptools.command.build_ext import build_ext
 from setuptools.command.sdist import sdist
 from wheel.bdist_wheel import bdist_wheel
 
+
 ROOT = os.path.realpath(os.path.dirname(__file__))
 
 METATENSOR_BUILD_TYPE = os.environ.get("METATENSOR_BUILD_TYPE", "release")

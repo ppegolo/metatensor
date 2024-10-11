@@ -8,6 +8,7 @@ from ._c_api import setup_functions
 from .data.extract import ExternalCpuArray, register_external_data_wrapper
 from .version import __version__
 
+
 _HERE = os.path.realpath(os.path.dirname(__file__))
 
 Version = namedtuple("Version", ["major", "minor", "patch"])

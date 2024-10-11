@@ -1,12 +1,13 @@
 import os
 from typing import Union
 
-import metatensor.torch
 import numpy as np
 import pytest
 import torch
-from metatensor.torch import Labels, TensorBlock, TensorMap
 from packaging import version
+
+import metatensor.torch
+from metatensor.torch import Labels, TensorBlock, TensorMap
 
 from . import _tests_utils
 

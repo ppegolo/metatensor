@@ -2,9 +2,10 @@ from typing import List, Optional, Tuple
 
 import pytest
 import torch
-from metatensor.torch import Labels, TensorBlock
 from packaging import version
 from torch import Tensor
+
+from metatensor.torch import Labels, TensorBlock
 
 from . import _tests_utils
 

@@ -5,6 +5,7 @@ from collections import namedtuple
 
 import torch
 
+
 Version = namedtuple("Version", ["major", "minor", "patch"])
 
 

@@ -11,7 +11,9 @@ Using IndexedDataset
 import os
 
 import torch
+
 from metatensor.learn.data import DataLoader, Dataset, IndexedDataset
+
 
 # %%
 #

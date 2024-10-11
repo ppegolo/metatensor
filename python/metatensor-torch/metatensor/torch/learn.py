@@ -2,9 +2,9 @@ import importlib
 import sys
 
 import metatensor.learn
+import torch
 from metatensor.torch import Labels, LabelsEntry, TensorBlock, TensorMap
 
-import torch
 
 # ==================================================================================== #
 # see operations.py for an explanation of what's going on here.                        #

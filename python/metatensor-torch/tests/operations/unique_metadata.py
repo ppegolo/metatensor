@@ -1,10 +1,11 @@
 import io
 import os
 
-import metatensor.torch
 import pytest
 import torch
 from packaging import version
+
+import metatensor.torch
 
 
 @pytest.fixture

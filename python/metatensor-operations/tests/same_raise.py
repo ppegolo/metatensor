@@ -2,10 +2,12 @@
 
 from os import path
 
-import metatensor
 import numpy as np
 import pytest
+
+import metatensor
 from metatensor import NotEqualError
+
 
 DATA_ROOT = path.join(path.dirname(__file__), "data")
 

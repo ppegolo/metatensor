@@ -2,6 +2,7 @@ import os
 
 import numpy as np
 
+
 try:
     import torch
 
@@ -11,6 +12,7 @@ except ImportError:
 
 import metatensor
 from metatensor import Labels, TensorBlock, TensorMap
+
 
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
 

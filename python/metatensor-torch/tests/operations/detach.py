@@ -1,9 +1,10 @@
 import io
 import os
 
-import metatensor.torch
 import torch
 from packaging import version
+
+import metatensor.torch
 
 
 def test_detach():

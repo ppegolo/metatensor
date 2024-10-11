@@ -8,6 +8,7 @@ from setuptools import setup
 from setuptools.command.bdist_egg import bdist_egg
 from setuptools.command.sdist import sdist
 
+
 ROOT = os.path.realpath(os.path.dirname(__file__))
 METATENSOR_CORE = os.path.realpath(os.path.join(ROOT, "..", "metatensor-core"))
 

@@ -49,6 +49,7 @@ import matplotlib.pyplot as plt
 # the usual suspects
 import numpy as np
 import torch
+
 from metatensor.torch import Labels, TensorBlock, TensorMap
 from metatensor.torch.atomistic import (
     MetatensorAtomisticModel,
@@ -61,6 +62,7 @@ from metatensor.torch.atomistic import (
 
 # Integration with ASE calculator for metatensor atomistic models
 from metatensor.torch.atomistic.ase_calculator import MetatensorCalculator
+
 
 # %%
 #

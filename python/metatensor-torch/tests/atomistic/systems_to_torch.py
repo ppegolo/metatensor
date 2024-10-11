@@ -8,6 +8,7 @@ except ImportError:
 import numpy as np
 import pytest
 import torch
+
 from metatensor.torch.atomistic import systems_to_torch
 
 

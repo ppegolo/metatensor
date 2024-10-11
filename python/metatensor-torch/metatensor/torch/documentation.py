@@ -2,6 +2,7 @@ from typing import Dict, List, Optional, Tuple, Union, overload
 
 import torch
 
+
 # These classes do not contain the actual code (see the C++ code in the root
 # metatensor-torch folder for that), but instead include the documentation for
 # these classes in a way compatible with Sphinx.

@@ -10,8 +10,10 @@
 # Any change to this file MUST be also be made to `metatensor/torch/operations.py`.
 from typing import Union
 
-import metatensor
 import numpy as np
+
+import metatensor
+
 
 try:
     import torch

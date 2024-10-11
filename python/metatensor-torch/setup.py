@@ -11,6 +11,7 @@ from setuptools.command.build_ext import build_ext
 from setuptools.command.sdist import sdist
 from wheel.bdist_wheel import bdist_wheel
 
+
 ROOT = os.path.realpath(os.path.dirname(__file__))
 METATENSOR_CORE_SRC = os.path.realpath(os.path.join(ROOT, "..", "metatensor-core"))
 
@@ -34,8 +35,9 @@ class cmake_ext(build_ext):
     """Build the native library using cmake"""
 
     def run(self):
-        import metatensor
         import torch
+
+        import metatensor
 
         source_dir = ROOT
         build_dir = os.path.join(ROOT, "build", "cmake-build")

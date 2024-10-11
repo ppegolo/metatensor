@@ -2,6 +2,7 @@ import os
 
 import metatensor
 
+
 try:
     import torch  # noqa
 

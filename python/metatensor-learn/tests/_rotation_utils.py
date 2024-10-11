@@ -7,12 +7,15 @@ from typing import Sequence
 
 import pytest
 
+
 torch = pytest.importorskip("torch")
 
 import numpy as np  # noqa: E402
-from metatensor import TensorBlock, TensorMap  # noqa: E402
 from scipy.spatial.transform import Rotation  # noqa: E402
 from torch import Tensor as TorchTensor  # noqa: E402
+
+from metatensor import TensorBlock, TensorMap  # noqa: E402
+
 
 # ===== Functions for transformations in the Cartesian basis =====
 

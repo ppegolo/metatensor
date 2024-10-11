@@ -1,7 +1,9 @@
 import os
 
-import metatensor
 import pytest
+
+import metatensor
+
 
 torch = pytest.importorskip("torch")
 
@@ -9,6 +11,7 @@ from metatensor.learn.nn import EquivariantLinear, Linear  # noqa: E402
 
 from ._rotation_utils import WignerDReal  # noqa: E402
 from ._tests_utils import random_single_block_no_components_tensor_map  # noqa: E402
+
 
 DATA_ROOT = os.path.join(
     os.path.dirname(__file__), "..", "..", "metatensor-operations", "tests", "data"

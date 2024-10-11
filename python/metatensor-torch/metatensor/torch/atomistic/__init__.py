@@ -2,6 +2,7 @@ import os
 
 import torch
 
+
 if os.environ.get("METATENSOR_IMPORT_FOR_SPHINX", "0") != "0":
     from .documentation import (
         ModelCapabilities,

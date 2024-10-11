@@ -6,6 +6,7 @@ from . import utils  # noqa: F401
 from ._c_lib import _load_library
 from .version import __version__  # noqa: F401
 
+
 if os.environ.get("METATENSOR_IMPORT_FOR_SPHINX", "0") != "0":
     from .documentation import (
         Labels,
@@ -71,6 +72,7 @@ except ImportError:
     pass
 
 from . import atomistic  # noqa: F401
+
 
 __all__ = [
     "Labels",

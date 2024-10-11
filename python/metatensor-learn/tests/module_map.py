@@ -1,6 +1,8 @@
 import numpy as np
 import pytest
+
 from metatensor import Labels
+
 
 torch = pytest.importorskip("torch")
 

@@ -60,8 +60,10 @@ effectively using the neighbor species :math:`\alpha` for `one-hot encoding`_.
 import ase
 import ase.visualize.plot
 import matplotlib.pyplot as plt
-import metatensor
 import numpy as np
+
+import metatensor
+
 
 # %%
 #

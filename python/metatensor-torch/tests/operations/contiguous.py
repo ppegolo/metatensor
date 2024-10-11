@@ -1,7 +1,8 @@
 import io
 
-import metatensor.torch
 import torch
+
+import metatensor.torch
 
 
 def test_save_load():

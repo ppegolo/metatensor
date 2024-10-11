@@ -7,6 +7,7 @@ import torch
 
 from .. import _c_lib
 
+
 METATENSOR_TORCH_LIB_PATH = _c_lib._lib_path()
 
 

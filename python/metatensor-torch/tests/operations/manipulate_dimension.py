@@ -1,8 +1,9 @@
 import io
 import os
 
-import metatensor.torch
 import torch
+
+import metatensor.torch
 
 
 def get_tensor_map():

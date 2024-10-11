@@ -4,12 +4,12 @@ import os
 import sys
 
 import metatensor
-
 import torch
 
 from ._build_versions import BUILD_METATENSOR_CORE_VERSION
 from .utils import parse_version, version_compatible
 from .version import __version__
+
 
 if not version_compatible(metatensor.__version__, BUILD_METATENSOR_CORE_VERSION):
     raise ImportError(

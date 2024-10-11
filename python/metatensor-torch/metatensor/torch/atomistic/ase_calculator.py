@@ -20,6 +20,7 @@ from . import (
     register_autograd_neighbors,
 )
 
+
 import ase  # isort: skip
 import ase.neighborlist  # isort: skip
 import ase.calculators.calculator  # isort: skip

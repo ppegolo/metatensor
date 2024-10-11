@@ -9,6 +9,7 @@ import uuid
 
 from setuptools import build_meta
 
+
 ROOT = os.path.realpath(os.path.dirname(__file__))
 METATENSOR_CORE = os.path.realpath(os.path.join(ROOT, "..", "..", "metatensor-core"))
 FORCED_METATENSOR_CORE_VERSION = os.environ.get(

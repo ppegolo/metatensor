@@ -1,10 +1,12 @@
 import os
 
-import metatensor
 import numpy as np
 import pytest
-from metatensor import Labels, TensorBlock, TensorMap
 from numpy.testing import assert_equal
+
+import metatensor
+from metatensor import Labels, TensorBlock, TensorMap
+
 
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
 

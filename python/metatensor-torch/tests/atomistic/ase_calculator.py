@@ -13,6 +13,7 @@ import metatensor_lj_test
 import numpy as np
 import pytest
 import torch
+
 from metatensor.torch import Labels, TensorBlock, TensorMap
 from metatensor.torch.atomistic import (
     MetatensorAtomisticModel,
@@ -28,6 +29,7 @@ from metatensor.torch.atomistic.ase_calculator import (
 )
 
 from .. import _tests_utils
+
 
 STR_TO_DTYPE = {
     "float32": torch.float32,

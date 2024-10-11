@@ -1,9 +1,10 @@
-import metatensor.torch
 import pytest
 import torch
+from packaging import version
+
+import metatensor.torch
 from metatensor.torch import Labels, TensorBlock
 from metatensor.torch.atomistic import NeighborListOptions, System
-from packaging import version
 
 from .. import _tests_utils
 

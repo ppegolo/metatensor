@@ -4,6 +4,7 @@ These functions are by design no pytest fixtures to avoid a confusing global imp
 """
 
 import numpy as np
+
 from metatensor import Labels, TensorBlock, TensorMap
 
 

@@ -3,9 +3,9 @@ import os
 import sys
 
 import metatensor.operations
+import torch
 from metatensor.torch import Labels, TensorBlock, TensorMap
 
-import torch
 
 #                       CAREFUL ADVENTURER, HERE BE DRAGONS!
 #

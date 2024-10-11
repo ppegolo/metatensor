@@ -73,3 +73,7 @@ filterwarnings = [
 [tool.ruff.lint]
 select = ["E", "F", "B", "I"]
 ignore = ["B018", "B904"]
+
+[tool.ruff.isort]
+lines-after-imports = 2
+known-first-party = ["metatensor"]

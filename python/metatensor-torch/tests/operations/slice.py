@@ -1,9 +1,10 @@
 import io
 
-import metatensor.torch
 import torch
-from metatensor.torch import Labels, TensorMap
 from packaging import version
+
+import metatensor.torch
+from metatensor.torch import Labels, TensorMap
 
 
 def test_slice():

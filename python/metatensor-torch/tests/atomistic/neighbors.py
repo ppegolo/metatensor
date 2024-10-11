@@ -1,14 +1,17 @@
 import pytest
 import torch
+from packaging import version
+
 from metatensor.torch.atomistic import (
     NeighborListOptions,
     System,
     register_autograd_neighbors,
 )
-from packaging import version
+
 
 try:
     import ase
+
     from metatensor.torch.atomistic.ase_calculator import _compute_ase_neighbors
 
     HAVE_ASE = True

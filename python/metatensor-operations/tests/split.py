@@ -1,9 +1,11 @@
 import os
 
-import metatensor
 import numpy as np
 import pytest
+
+import metatensor
 from metatensor import Labels
+
 
 DATA_ROOT = os.path.join(os.path.dirname(__file__), "data")
 

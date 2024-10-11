@@ -3,6 +3,7 @@
 import os
 
 import numpy as np
+
 from metatensor import Labels, TensorBlock, TensorMap
 
 
