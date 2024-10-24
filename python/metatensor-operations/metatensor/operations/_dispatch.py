@@ -7,7 +7,6 @@ import numpy as np
 from ._backend import torch_jit_is_scripting, torch_jit_script
 
 
-
 def parse_version(version):
     match = re.match(r"(\d+)\.(\d+)\.(\d+).*", version)
     if match:
