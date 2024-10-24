@@ -7,6 +7,7 @@ import numpy as np
 from ._backend import torch_jit_is_scripting, torch_jit_script
 
 
+
 def parse_version(version):
     match = re.match(r"(\d+)\.(\d+)\.(\d+).*", version)
     if match:
@@ -626,9 +627,9 @@ def norm(array, axis=None):
     function for more documentation.
     """
     if isinstance(array, TorchTensor):
-        return np.linalg.norm(array, axis=axis)
-    elif isinstance(array, np.ndarray):
         return torch.linalg.norm(array, dim=axis)
+    elif isinstance(array, np.ndarray):
+        return np.linalg.norm(array, axis=axis)
     else:
         raise TypeError(UNKNOWN_ARRAY_TYPE)
 
